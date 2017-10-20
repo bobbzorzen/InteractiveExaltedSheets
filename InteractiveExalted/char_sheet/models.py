@@ -20,11 +20,11 @@ class SolarCharacter(models.Model):
     # TODO: Add validators for fields
 
     # General
-    name = models.CharField(max_lenght=40)
-    cast = models.CharField(choices=cast_choices, default='1')
-    concept = models.CharField(max_lenght=40)
-    nature = models.CharField(max_lenght=40)
-    anima = models.CharField(max_lenght=40)
+    name = models.CharField(max_length=40)
+    cast = models.CharField(max_length=40, choices=cast_choices, default='1')
+    concept = models.CharField(max_length=40)
+    nature = models.CharField(max_length=40)
+    anima = models.CharField(max_length=40)
     # Attributes - Physical
     strenght = models.IntegerField(default=1)
     dexterity = models.IntegerField(default=1)
