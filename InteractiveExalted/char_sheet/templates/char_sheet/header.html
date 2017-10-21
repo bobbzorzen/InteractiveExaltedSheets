@@ -18,13 +18,17 @@
 
 
 <body class="body">
-	<div class="wrapper">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Interactive Exalted</a>
-        </nav>
-	   {% block content %}
-	   {% endblock %}	
-	</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <a class="navbar-brand" href="#">Interactive Exalted</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    {% block content %}
+    {% endblock %}	
 </body>
 
 </html>
