@@ -1,11 +1,29 @@
 {% extends "char_sheet/header.html" %}
 
 {% block content %}
-<div class="container">
+<div class="container main-content">
     <div class="row">
         <div class="col-sm-12">
             <h1>Character Sheets</h1>
             <p>Char info goes here!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="property-container">
+                <p class="property-name">Name</p>
+                <div class="property-value">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="property-container">
+                <p class="property-name">Character name</p>
+                <div class="property-value">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
         </div>
     </div>
 </div>

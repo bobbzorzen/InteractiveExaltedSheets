@@ -1,6 +1,17 @@
-/* .column {
-    padding: 0 10em;
+.main-content {
+    padding-top: 20px;
 }
-.content-wrapper {
-    padding: 1em;
-} */
+
+.main-content .property-container {
+    border: 3px solid #dcedc8;
+    border-radius: 10px;
+}
+.main-content .property-container .property-name {
+    padding: 5px;
+    margin-bottom: 0.5rem;
+    background-color: #dcedc8;
+    font-weight: bold;
+}
+.main-content .property-container .property-value {
+    margin: 5px;
+}    
