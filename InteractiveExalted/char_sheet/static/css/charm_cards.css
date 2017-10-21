@@ -1,12 +1,13 @@
 .card {
-    background-color: #3bafb1; 
     width: 552px; 
     height: 386px;
+    display: inline-block;
+    background-color: #3bafb1;
 }
 
 /* Front styles */
 .card .front {
-    display: inline-block;
+    display: block;
     float: left;
     width: 50%;
     height: 100%;
